@@ -51,5 +51,5 @@ def main():
         class_names = ['Class 1', 'Class 2', 'Class 3']  # Replace with your class names
         st.success(f'Predicted Class: {class_names[class_index]}')
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     main()
