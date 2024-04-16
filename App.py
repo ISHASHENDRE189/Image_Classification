@@ -35,7 +35,6 @@ def predict_image(image):
 def main():
     st.title(' DR Image Classification with PyTorch and Streamlit')
     st.text('Upload an image for classification')
-
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg"])
 
     if uploaded_file is not None:
